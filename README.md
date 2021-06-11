@@ -10,10 +10,10 @@ Fisierul ***mandelbrot.py*** trebuie descarcat si inclus in fisierul principal d
 In continuare, prin apelarea functiei **buildFractal** vom putea genera imaginea.
 ```py
 buildFractal(min_x, max_x, min_y, max_y, width, height, max_iterations, filename = "mandelbrot")
-//min_x, min_y, max_x, max_y - coordonatele graficului care va fi reprezentat in imaginea generata
-//width, height - dimensiunile imaginii
-//max_iterations - iteratiile care vor fi facute pe numerele complexe reprezentate de coordonatele (x,y) (iteratii mai multe => fractal mai precis)
-//filename - numele fisierului ".png" care va fi salvat in acelasi directory cu fisierul principal. Daca nu este furnizat niciun parametru filename, acesta va fi default "mandelbrot"
+#min_x, min_y, max_x, max_y - coordonatele graficului care va fi reprezentat in imaginea generata
+#width, height - dimensiunile imaginii
+#max_iterations - iteratiile care vor fi facute pe numerele complexe reprezentate de coordonatele (x,y) (iteratii mai multe => fractal mai precis)
+#filename - numele fisierului ".png" care va fi salvat in acelasi directory cu fisierul principal. Daca nu este furnizat niciun parametru filename, acesta va fi default "mandelbrot"
 ```
 # Exemplu
 ```py
